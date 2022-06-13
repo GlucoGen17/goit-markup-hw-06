@@ -640,6 +640,76 @@ ol {
   fill: currentColor;
 }
 
+.footer-subscribe {
+  margin-left: 93px;
+}
+
+.footer-subscribe-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+
+  padding: 20px 0px 10px 0px;
+  margin-bottom: 20px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+}
+
+.footer-subscribe-label {}
+
+.footer-subscribe-input {
+  width: 358px;
+  padding-left: 16px;
+  border-radius: 4px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--cap-background-color);
+  color: var(--white-text-color);
+}
+
+.footer-subscribe-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  padding: 10px 29px;
+  border-radius: 4px;
+
+  background-color: var(--accent-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--white-text-color);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  min-height: 43px;
+  margin-left: 12px;
+}
+
+
+.subscribe-icon {
+  margin-left: 10px;
+  fill: #ffffff;
+}
+
 
 /* ----------------------portfolio--------------------------- */
 
