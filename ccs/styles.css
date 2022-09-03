@@ -1071,31 +1071,38 @@ ol {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-
+  display: flex;
 }
 
 .check-laben-link {
   color: #2196F3;
 }
 
-.form-icon-check {
-  position: absolute;
-
+.check-laben span {
+  width: 16px;
+  height: 15px;
   border: 2px solid #212121;
-  border-radius: 2px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+}
 
-  left: 12px;
-
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+.check-icon {
+    fill: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
-.check-input:checked + .form-icon-check {
+.check-input:checked + .check-laben span {
 background-color: #2196f3;
-border-color:#2196f3;
-fill: #ffffff;;
+border: none;
+}
+
+.check-input:checked+.check-laben .check-icon {
+fill: #ffffff;
 }
 
 .form-btn {
