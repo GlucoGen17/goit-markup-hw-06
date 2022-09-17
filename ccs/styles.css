@@ -279,7 +279,7 @@ ol {
   border-radius: 4px;
 }
 
-.modal-close {}
+
 
 /* ----------------------Особености--------------------------- */
 
@@ -677,8 +677,6 @@ ol {
 .footer-subscribe-form {
   display: flex;
 }
-
-.footer-subscribe-label {}
 
 .footer-subscribe-input {
   width: 358px;
@@ -1105,7 +1103,6 @@ fill: #ffffff;
 }
 
 .check-text {
-  display: flex;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
