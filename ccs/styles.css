@@ -980,7 +980,9 @@ ol {
 .form-input-svg {
   position: relative;
   width: 100%;
+  
 }
+
 
 .form-input {
   width: 100%;
@@ -994,12 +996,12 @@ ol {
 
 .form-input:hover,
 .form-input:focus {
-  border-color: #2196f3
+  border-color: #2196f3;
   outline: none;
 }
 
-.form-input:hover~.input-icon,
-.form-input:focus~.input-icon {
+.form-input:hover~.form-icon,
+.form-input:focus~.form-icon {
   fill:#2196f3;
 }
 
