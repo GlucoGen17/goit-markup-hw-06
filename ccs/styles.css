@@ -1076,7 +1076,6 @@ ol {
   
 }
 
-
 .check-laben span {
   width: 16px;
   height: 15px;
@@ -1087,7 +1086,6 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .check-icon {
@@ -1107,7 +1105,7 @@ fill: #ffffff;
 }
 
 .check-text {
-  /* display: flex; */
+  display: flex;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
